@@ -1,0 +1,48 @@
+html,
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+#banner {
+	height: 150px;
+}
+.row {
+	margin: 0;
+}
+.rrss {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 0 15px;
+	
+}
+.row ul li {
+	display: inline-block;
+	bottom: 0;
+}
+
+.row ul li a {
+	
+} 
+
+.row ul li a img {
+	width: 30px;
+	margin: 0 25px;
+}
+
+nav {
+	background: #FF7800;
+	text-align: center;
+}
+
+.menu  {
+	list-style: none;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+	font-size: 1.2em;
+}
