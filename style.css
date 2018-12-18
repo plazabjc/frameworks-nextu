@@ -1,6 +1,6 @@
 html,
 body {
-	background: black;
+	background: white;
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -19,21 +19,18 @@ body {
 .row {
 	margin: 0;
 }
-.rrss {
+#rrss {
 	position: absolute;
 	bottom: 0;
 	right: 0;
 	padding: 0 15px;
 	
 }
+
 .row ul li {
 	display: inline-block;
 	bottom: 0;
 }
-
-.row ul li a {
-	
-} 
 
 .row ul li a img {
 	width: 30px;
@@ -47,6 +44,7 @@ nav {
 
 .menu  {
 	list-style: none;
+	padding: 0;
 }
 
 .menu li a {
@@ -54,4 +52,31 @@ nav {
 	color: white;
 	font-weight: bolder;
 	font-size: 1.2em;
+}
+.imagen-artista {
+	width: 100%;
+	margin: 40px 0;
+}
+
+.form-group img {
+	vertical-align: top;
+	padding: 35px 5px;
+}
+
+label {
+	display: block;
+}
+
+.comentario {
+	width: 100%;
+	height: 150px;
+}
+textarea.form-control {
+	display: inline-block;
+	width: 90%;
+	margin: 25px 0;
+}
+
+#busqueda {
+	margin: 5px 0;
 }
