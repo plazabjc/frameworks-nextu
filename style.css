@@ -13,6 +13,16 @@ body {
 	margin: auto;
 	padding: 0;
 }
+
+.container h3 {
+	font-family: 'Lalezar';
+	font-size: 1.5em;
+}
+
+.container p {
+	font-family: 'Roboto';
+	font-size: 1em; 
+}
 #banner {
 	height: 150px;
 }
@@ -48,10 +58,9 @@ nav {
 }
 
 .menu li a {
-	text-decoration: none;
+	font-family: 'Lalezar';
 	color: white;
-	font-weight: bolder;
-	font-size: 1.2em;
+	font-size: 1.3em;
 }
 .imagen-artista {
 	width: 100%;
@@ -73,10 +82,22 @@ label {
 }
 textarea.form-control {
 	display: inline-block;
-	width: 90%;
+	width: 60%;
 	margin: 25px 0;
 }
 
 #busqueda {
 	margin: 5px 0;
+}
+
+#lista-artistas {
+	background: #E1E1E1;
+}
+
+#lista-artistas li {
+	font-family: 'Roboto';
+	font-size: 1em;
+	margin: 0px 15px;
+	padding: 20px 0;
+	border-bottom: 1px solid black;
 }
