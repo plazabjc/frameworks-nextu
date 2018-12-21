@@ -6,6 +6,7 @@ body {
 	padding: 0;
 }
 
+/*MUSICA */
 .container {
 	background: white;
 	width: 90%;
@@ -23,6 +24,7 @@ body {
 	font-family: 'Roboto';
 	font-size: 1em; 
 }
+
 #banner {
 	height: 150px;
 }
@@ -92,6 +94,7 @@ textarea.form-control {
 
 #lista-artistas {
 	background: #E1E1E1;
+	padding-bottom: 15px;
 }
 
 #lista-artistas li {
