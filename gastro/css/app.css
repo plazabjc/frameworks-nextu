@@ -1,0 +1,31 @@
+body {
+	background-image: url(../img/food.png);
+	background-size: cover;
+}
+.row{
+	background: rgba(255, 255, 255, 0.85);
+}
+.title {
+	text-align: right;
+}
+
+.menu-gastro li {
+	list-style: none;
+	width: 120px;
+	border: 1px solid #C8B300;
+	margin: 5px 0;
+}
+.menu-gastro li a{
+	color: black;
+}
+
+.menu-gastro li:hover {
+	background: #C8B300;
+}
+
+.gallery {
+	background: rgba(124, 124, 124, 0.20);
+}
+.gallery img {
+	padding: 20px 0;
+}
