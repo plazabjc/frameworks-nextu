@@ -1,0 +1,62 @@
+body {
+	background-image: url(../img/food.png);
+	background-size: cover;
+	background-position: top center;
+    background-attachment: fixed;
+}
+.row{
+	background: rgba(255, 255, 255, 0.85);
+}
+#section-gastro {
+	background: rgba(124, 124, 124, 0.25);
+}
+.title {
+	text-align: right;
+}
+.busqueda {
+	background: transparent;
+}
+
+.btn {
+	width: 25px;
+	text-align: left;
+}
+
+#btn-busqueda {
+	padding: 5px 0 0 0;
+}
+ul {
+	margin-left: 0;
+}
+.menu-gastro li {
+	text-align: center;
+	list-style: none;
+	border: 1px solid #C8B300;
+	margin: 5px 0;
+	padding: 5px 0;
+}
+.menu-gastro li a{
+	color: black;
+}
+
+.menu-gastro li:hover {
+	background: #C8B300;
+}
+
+.gallery {
+	background: transparent;
+}
+.gallery img {
+	padding: 20px 0;
+}
+.historial h4 {
+	margin-top: 15px;
+}
+.historial ul li {
+	list-style: none;
+	margin-left: 15px;
+}
+
+.blog-gastro {
+	margin-top: 100px;
+}
