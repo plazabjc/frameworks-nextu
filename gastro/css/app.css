@@ -13,7 +13,18 @@ body {
 .title {
 	text-align: right;
 }
+.title h2 {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.title p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.3em;
+}
 .busqueda {
+	padding: 0 0 0 15px ;
+	margin: 0;
+	text-align: center;
 	background: transparent;
 }
 
@@ -36,6 +47,8 @@ ul {
 	padding: 5px 0;
 }
 .menu-gastro li a{
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 1.2em;
 	color: black;
 }
 
@@ -50,13 +63,22 @@ ul {
 	padding: 20px 0;
 }
 .historial h4 {
+	font-family: 'Fjalla One', sans-serif;
 	margin-top: 15px;
 }
 .historial ul li {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.1em;
 	list-style: none;
 	margin-left: 15px;
+	padding: 15px 0;
+	border-bottom: 1px solid #C8B300;
 }
 
 .blog-gastro {
 	margin-top: 100px;
+}
+
+.comentario {
+	padding: 0 15px 0 0;
 }
