@@ -42,7 +42,7 @@
 	display: flex;
    justify-content: center;
    align-items: center;
-   background: rgba(216,216,216, 0.75);
+   background: rgba(216,216,216, 0.85);
 }
 .icon-rrss {
 	width: 60%;
@@ -101,4 +101,14 @@
 	margin-left: 15px;
 	margin-right: 15px;
 	text-align: justify;
+}
+
+.formulario {
+	background: rgba(216,216,216, 0.85);
+	margin: 5px 0 25px 0;
+	font-family: 'Oswald', sans-serif;
+}
+.formulario label {
+	font-size: 1.3em;
+	color: black;
 }
